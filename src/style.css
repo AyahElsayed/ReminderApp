@@ -1,0 +1,41 @@
+body {
+  background: #84addb;
+}
+.App {
+  width: 50%;
+  border-radius: 17px;
+  padding: 10px;
+  margin: 27px auto;
+  box-shadow: 1px 2px 5px #000;
+  background: #2067e9;
+}
+.App img {
+  width: 27%;
+  display: block;
+  margin: 40px auto;
+  border-radius: 30px;
+}
+.closeicon {
+  position: absolute;
+  top: 17px;
+  right: 15px;
+  background-color: #dc3545;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+.reminder-title {
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  text-decoration: underline;
+}
+input,
+button,
+.list-group-item {
+  margin: 5px 0;
+}
